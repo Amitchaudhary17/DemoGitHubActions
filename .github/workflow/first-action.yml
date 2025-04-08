@@ -14,5 +14,11 @@ jobs:
       steps:
       - name: Test case
         run: echo "Test Passed!"
+
+    dev:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Test case
+        run: echo "Test Passed!"
       
     
